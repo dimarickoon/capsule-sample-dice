@@ -1,0 +1,10 @@
+train (t-rehdq3im19ac4rbkydk52jddv) {
+  utterance ("[g:RollDice] roll (3)[v:NumDiceConcept] dice with (3)[v:NumSidesConcept] sides called (dnd)[v:GameName] game for (2)[v:PlayerNum] players")
+  plan (Y2BjkEutSMwtyEnVS8lMTtULys/JCUotLs0pcc7PS04tKGEQxZB3ATLQhN0Tc1P9gJhBGkXYrzQXpBhmlAy6ZHBmSmoxTFYMRTYgJ7EytQiohoGVgZGBiYGZgQXIYgCyYRABUFQAAA==)
+  last-modified (1575215900119)
+}
+train (t-rjed5rtholvuco7plg6egarqz) {
+  utterance ("[g:RollDice] roll (15)[v:NumDiceConcept] dice with (10)[v:NumSidesConcept] sides")
+  plan (Y2BhkEutSMwtyEnVS8lMTtULys/JCUotLs0pcc7PS04tKGEQxZB3ATIYpFGE/UpzQaIwPTLoksGZKanFMFlmBkYGJiDJAKRBEALgogA=)
+  last-modified (1575213037276)
+}

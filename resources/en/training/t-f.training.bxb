@@ -1,0 +1,5 @@
+train (t-f0ln37d4gx7vww56jkxs1bax0) {
+  utterance ("[g:RollDice] roll (2)[v:NumDiceConcept] dice with (6)[v:NumSidesConcept] sides each")
+  plan (Y2BhkEutSMwtyEnVS8lMTtULys/JCUotLs0pcc7PS04tKGEQxZB3ATIYpFGE/UpzQaIwPTLoksGZKanFMFlmBkYGJiDJAKRBEALgogA=)
+  last-modified (1575211170932)
+}

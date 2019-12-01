@@ -1,0 +1,50 @@
+result-view {
+  match {
+    RollResultConcept (rollResult)
+  }
+
+  render {
+    layout {
+      section {
+        content {
+          single-line {
+            text {
+              style (Detail_M)
+              value ("Sum: #{value(rollResult.sum)}")
+            }
+          }
+          single-line {
+            text {
+              style (Detail_M)
+              value ("Rolls: #{value(rollResult.roll)}")
+            }
+          }
+          single-line {
+            text {
+              style (Detail_M)
+              value ("Multiplication: #{value(rollResult.mul)}")
+            }
+          }
+          single-line {
+            text {
+              style (Detail_M)
+              value ("Subtraction: #{value(rollResult.sub)}")
+            }
+          }
+          single-line {
+            text {
+              style (Detail_M)
+              value ("game name: #{value(rollResult.gameName)}")
+            }
+          }
+          single-line {
+            text {
+              style (Detail_M)
+              value ("player num: #{value(rollResult.playerNum)}")
+            }
+          }
+        }
+      }
+    }
+  }
+}

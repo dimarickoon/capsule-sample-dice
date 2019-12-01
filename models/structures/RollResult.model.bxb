@@ -5,10 +5,31 @@ structure (RollResultConcept) {
     min (Required)
     max (One)
   }
+  property (mul) {
+    type (Mul)
+    min (Required)
+    max (One)
+  }
+  property (sub) {
+    type (Sub)
+    min (Required)
+    max (One)
+  }
+  property (gameName) {
+    type (GameName)
+    min (Required)
+    max (One)
+  }
+  property (playerNum) {
+    type (PlayerNum)
+    min (Required)
+    max (One)
+  }
   property (roll) {
     description (The list of results for each dice roll.)
     type (RollConcept)
     min (Required)
     max (Many)
-  }      
+  }
+        
 }

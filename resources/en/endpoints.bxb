@@ -1,7 +1,7 @@
 endpoints {
    action-endpoints {
      action-endpoint (RollDice) {
-       accepted-inputs (numDice, numSides)
+       accepted-inputs (numDice, gameName, playerNum numSides)
        local-endpoint ("RollDice.js")
      }
    }

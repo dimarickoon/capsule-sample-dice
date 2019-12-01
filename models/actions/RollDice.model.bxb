@@ -5,7 +5,16 @@ action (RollDice) {
       min (Required)
       max (One)
     }
-
+    input (gameName) {
+      type (GameName)
+      min (Required)
+      max (One)
+    }
+    input (playerNum) {
+      type (PlayerNum)
+      min (Required)
+      max (One)
+    }
     input (numSides) {
       type (NumSidesConcept)
       min (Required)
